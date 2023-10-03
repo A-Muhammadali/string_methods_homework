@@ -6,5 +6,8 @@ def main(s):
     Returns:
         bool: answer
     """
-    
-    return
+    if s.lower()==s:
+        return True
+    else:
+        return False
+print(main("IPHONE IS A MOBILE"))

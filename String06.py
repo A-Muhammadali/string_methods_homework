@@ -6,5 +6,8 @@ def main(s):
     Returns:
         bool: answer
     """
-    
-    return
+    if s.title()==s and s.upper()==s:
+        return True
+    else:
+        return False
+print(main("55454")) 
